@@ -16,16 +16,12 @@ The application is structured as a basic microservice that exposes a public REST
 
 ---
 
-##  Project Structure
+##  How to Run
 
-```text
-i2i-clean-service/
-├── pom.xml
-└── src/
-    └── main/
-        └── java/
-            └── com/
-                └── i2i/
-                    └── academy/
-                        ├── AcademyApplication.java  (Main Application Entry)
-                        └── ApiController.java      (REST Controller for Welcome Endpoint)
+### 1. Running Locally (Development)
+To run and test the application on your local machine:
+
+1. Clone the repository and open your terminal in the project root directory.
+2. Run the application using the Spring Boot Maven command:
+   ```bash
+   mvn spring-boot:run
